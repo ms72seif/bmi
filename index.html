@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI</title>
+    
+</head>
+
+<body>
+    <main>
+        <div id="box">
+            <nav id="adv">
+                <figure>
+                    <img src="img/bmi.png" alt="">
+                </figure>
+                <article id="art">
+                    <h1 style="direction: rtl;"></h1><br>
+                    <h2 style="direction: rtl;"></h2><br>
+                    <h2 style="direction: rtl;"></h2><br>
+                    <h2 style="direction: rtl;"></h2><br>
+                    <h2 style="direction: rtl;"></h2><br>
+                    <h2 style="direction: rtl;"></h2><br>
+                </article>
+            </nav>
+            <nav id="bmi">
+                <div>
+                    <h2>BMI CALCULATOR</h2>
+                    <div class="inp">
+                        <label for="">Height(cm):
+                            <input type="text" placeholder="Your Height" id="height">
+                        </label>
+                        <label for="">Weight(kg):
+                            <input type="text" placeholder="Your Weight" id="weight">
+                        </label>
+                        <button onclick="_bmi()">Calculate</button>
+                    </div>
+                    <h3 id="res"></h3>
+                    <h4 id="mo"></h4>
+                </div>
+            </nav>
+        </div>
+    </main>
+</body>
+<script src="master.js"></script>
+
+</html>
